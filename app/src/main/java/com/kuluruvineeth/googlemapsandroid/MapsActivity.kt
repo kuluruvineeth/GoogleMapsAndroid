@@ -52,5 +52,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             isMapToolbarEnabled = false
             isCompassEnabled = true
         }
+        mMap.setPadding(0,0,300,0)
     }
 }
